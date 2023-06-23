@@ -1,0 +1,131 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: hsl(0, 0%, 100%);
+  width: 700px ;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+.nav-list {
+  text-decoration: none;
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  padding: 20px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+a{
+  display: block;
+  color:  hsl(233, 8%, 62%);
+  text-align: center;
+  text-decoration: none;
+}
+
+.btn {
+  width:120px;
+  height: 25px;
+  border-radius: 30px;
+  background-image: linear-gradient(to right, hsl(136, 80%, 77%),hsl(192, 89%, 74%)
+  );
+  color: #fff;
+}
+
+section {
+  padding: 10px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.hero-text {
+  width: 300px;
+  margin-left: 50px;
+  
+}
+p {
+ color: hsl(233, 8%, 62%) ;
+
+}
+.text {
+  font-size: 35px;
+  color: hsl(0, 2%, 24%);
+}
+
+.passage {
+  font-size: 15px;
+  line-height: 2;
+  margin-bottom: 10px;
+  color: hsl(233, 8%, 62%) ;
+}
+
+.hero-img {
+  position: relative;
+  height: 350px;
+  margin-left: 10px;
+  gap: 30px;
+}
+.background-hero {
+  width: 450px;
+  height: 450px;
+  position: absolute;
+  left: 5%;
+  z-index: -1;
+}
+
+.hero-image {
+  width: 350px;
+  height: 450px;
+}
+
+.info {
+  background-color: hsl(0, 0%, 98%) ;
+}
+
+.question{
+  width: 420px;
+  margin-top: 50px;
+}
+.heading {
+  font-size: 35px;
+}
+
+.why{
+  margin-top:20px;
+}
+
+.info-block{
+  display: flex;
+  justify-content: space-between;
+}
+
+.information {
+  width: 320px;
+  height: 200px;
+  line-height: 1.5;
+  margin-top: 30px;
+  padding: 10px;
+}
+
+h5 {
+  font-size: 15px;
+  margin-top: 10px;
+}
+
+.info-passage {
+  margin-top: 20px;
+}
