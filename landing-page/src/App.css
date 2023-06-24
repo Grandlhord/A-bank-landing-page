@@ -6,6 +6,9 @@ body{
   background-color: hsl(0, 0%, 100%);
   width: 700px ;
 }
+.App{
+  width: 100vw;
+}
 .navbar {
   display: flex;
   align-items: center;
@@ -19,7 +22,7 @@ body{
   display: flex;
 }
 
-li {
+.nav-li {
   padding: 20px;
   text-decoration: none;
   display: inline-block;
@@ -53,16 +56,18 @@ section {
 }
 
 .hero-text {
-  width: 300px;
-  margin-left: 50px;
+  width: 400px;
+  margin-left: 160px;
+  margin-top: 60px;
   
 }
+
 p {
  color: hsl(233, 8%, 62%) ;
 
 }
 .text {
-  font-size: 35px;
+  font-size: 45px;
   color: hsl(0, 2%, 24%);
 }
 
@@ -80,20 +85,24 @@ p {
   gap: 30px;
 }
 .background-hero {
-  width: 450px;
-  height: 450px;
+  width: 750px;
+  height: 650px;
   position: absolute;
-  left: 5%;
+  right: 1%;
   z-index: -1;
 }
 
 .hero-image {
-  width: 350px;
-  height: 450px;
+  width: 550px;
+  height: 550px;
 }
 
 .info {
+  margin-top: 100px;
   background-color: hsl(0, 0%, 98%) ;
+  height: 420px;
+  padding-left: 200px;
+  padding-right: 200px;
 }
 
 .question{
@@ -128,4 +137,94 @@ h5 {
 
 .info-passage {
   margin-top: 20px;
+}
+
+.Articles {
+  display: flex;
+  justify-content: center;
+  
+}
+.articles{
+  display: flex;
+  padding: 25px;
+}
+
+.single-article {
+  width: 170px;
+}
+.Article-image img{
+  width: 170px;
+  border-radius: 6px;
+}
+
+.article-author{
+  margin-top: 10px;
+}
+
+.article-title{
+  margin-top: 10px;
+  width: 140px;
+  font-size: 13px;
+}
+
+.article-passage{
+  margin-top: 10px;
+  width: 173px;
+}
+
+.Articles-header{
+  font-size: 40px;
+  padding-left: 265px ;
+  font-weight: 200;
+}
+
+footer {
+  background-color: hsl(233, 26%, 24%) ;
+  display: flex;
+  padding: 30px;
+}
+.blogo{
+  margin-top: 20px;
+  padding-left: 220px;
+}
+.socials {
+  margin-top:30px;
+  padding-left: 220px;
+}
+
+.webpages{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding-left: 50px;
+  
+}
+
+ul{
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.ACB, .CSR {
+  width: 120px;
+  margin-top: 20px;
+  padding-left: 10px;
+  color : hsl(233, 8%, 62%);
+  font-size: 15px;
+  list-style-type: none;
+  line-height: 1.5;
+}
+
+.invite-copyright{
+  padding-left: 230px;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.copyright{
+  margin-top: 10px;
+}
+
+.soc{
+  padding-left:3px;
 }

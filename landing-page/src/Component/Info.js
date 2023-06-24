@@ -14,14 +14,14 @@ export default function Info (){
                 </p>
             </div>
             <div className="info-block">
-            <div className="information">
+             <div className="information">
                 <img src={online}  alt="online banking"/>
                 <h5>Online Banking</h5>
                 <p className="info-passage">Our modern web and mobile applications allow you to
                     keep track of your financies wherever you are in the 
                     world
                 </p>
-            </div> 
+             </div> 
             <div className="information">
             <img src={budgeting}  alt="simple-budgeting"/>
                 <h5>Simple budgeting</h5>
